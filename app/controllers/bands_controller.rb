@@ -55,7 +55,7 @@ class BandsController < ApplicationController
   # DELETE /bands/1.json
   def destroy
     @target= @band.id
-    @khurram = @band.id
+
     @band.destroy
     # respond_to do |format|
     #
